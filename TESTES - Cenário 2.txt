@@ -1,0 +1,26 @@
+Cenários de Testes 
+
+1.Cenário: Emprestar Livro
+	Quando o gerente ou funcionário faz um empréstimo com sucesso!
+	
+	|   Nome Funcionário  |      Cliente      |    Emprestar Livro           |  Código Livro |
+        | Sarah Moraes        | Giovana Pedrosa   |      Cálculo 1               |  20138        |
+        |   Gabriel Henrique  | Melissa Rafaela   |         Inglês Fácil         |   25789       |
+        |    Gabriela Ramos   |      gabi.ramos   |Dicionário de Inglês Michaelis |     22105    |
+        
+
+        Então mostre a seguinte Mensagem: "Livro emprestado com sucesso!!" 
+
+
+2.Cenário: Devolução Livro
+
+	Quando o gerente ou funcionário faz uma devolução com sucesso!
+	
+	|    Nome Cliente     |     CPF           |   Código do Livro  |
+        | Bruna Karla         |    38156461541    |        12500       |
+        |      Felipe Gomes   |    23901252550    |        10200       |
+        |  Alicia Vasconcelos |     24427247822   |       15400        |
+   
+
+        Então mostre a seguinte Mensagem: "Livro devolvido com sucesso!!"
+   
