@@ -1,0 +1,20 @@
+User Stores da Biblioteca Livre Leitura
+
+US1: Eu como usuário gostaria de interagir com os livros
+- Criar página de cada livro
+- Ler Livro
+- Avaliar Livro
+
+US2: Eu como usuário gostaria de pesquisar livro
+- Criar página de listas dos livros
+- Criar filtros para os livros
+
+US3: Eu como bibliotecário gostaria de manter livros
+- Adicionar livro
+- Editar livro
+- Deletar livro
+-> Criar pagina de comando
+
+US4: Eu como bibliotecário gostaria de atualizar os dados dos clientes
+- Editar Cliente
+- Excluir Cliente
