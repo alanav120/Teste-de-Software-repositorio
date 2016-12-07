@@ -1,0 +1,54 @@
+
+   
+1.Cenário: Cadastrar Funcionários
+	Quando o gerente cadastra o usuário no sistema com sucesso!
+	
+	|   Nome Funcionário  |      Login        |          Senha           |
+        | Sarah Moraes        |      sarah.m      |          201545          |
+        |   Gabriel Henrique  |      h.gabriel    |         2230230          |
+        |    Gabriela Ramos   |      gabi.ramos   |         485136           |
+        
+
+        Então mostre a seguinte Mensagem: "Cadastro realizado com sucesso!!" 
+
+
+2.Cenário: Cadastrar Cliente
+
+	Quando o gerente ou funcionário cadastra clientes:
+	
+	|    Nome Cliente     |     CPF           |         Telefone         |
+        | Bruna Karla         |    38156461541    |         (81) 999981601   |
+        |      Felipe Gomes   |    23901252550    |        (81) 999988693    |
+        |  Alicia Vasconcelos |     24427247822   |        (81) 999981130    |
+   
+
+        Então mostre a seguinte Mensagem: "Cliente cadastrado com sucesso!!"  
+
+
+
+3.Cenário: Cadastrar Livro
+	
+        Quando o gerente ou funcionário cadastra livros:
+	
+	|  Nome do Livro      |      Editora      |        Edição            |
+        | Java com programar  |     Pearson       |         8º               |
+        |     Core Java       |      Pearson      |         8º               |
+        |  Inglês para Leigos |   Alta Books      |         3º               |
+   
+      
+        Então mostre a seguinte Mensagem: "Livro cadastrado com sucesso!!"  
+
+
+4.Cenário: Cadastrar Materiais Especiais
+	
+        Quando o gerente ou funcionário cadastra algum tipo de material especial:
+	
+	|  Nome do Material   |    Classificação  |        Ano da Edição     |
+        | Revista info        |     B             |         2006             |
+        | Revista Época       |     B             |         2010             |
+        |  Jornal do Comércio |     C             |         2015             |
+   
+   
+        Então mostre a seguinte Mensagem: "Materiais Especiais cadastrado com sucesso!!"  
+
+
